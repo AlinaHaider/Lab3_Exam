@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style_form1.css">
+    </head>
+    <body class="pagebackground">
+
+        <form action="file:///D:/6th%20sem/CSCS342-A/Lab3_exam/form-1.html">
+
+            <fieldset class="fieldset" id="moveBox">
+
+                <legend>Application form</legend>
+
+                <label for="fname">Full name </label>
+                <input type="text" id="fname" name="fname" placeholder="Alina Baig" class="inputmargin"><br>
+
+                <label for="email">Email address</label>
+                <input type="text"name="email" placeholder="Enter Email" class="inputmargin"><br>
+
+                Gender
+                <input type="radio" id="Male" name="select" value="Male" class="inputmargin">
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" name="select" value="Female">
+                <label for="Female">Female</label><br><br>
+
+                <label for="nationality">Nationality:</label>
+                <select id="nationality" name="nationality" class="inputmargin">
+                    <option value="">-Select-</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                </select><br><br>
+
+                Skills
+                <label for="opt1" class="inputmargin">Asp.Net </label>
+                <input type="checkbox" id="opt1" name="opt1" value="Asp">
+                <label for="opt2" class="inputmargin">JQuery </label>
+                <input type="checkbox" id="opt2" name="opt2" value="JQuery"><br>
+                <label for="opt3" id="skills">MVC </label>
+                <input type="checkbox" id="opt3" name="opt3" value="MVC">
+                <label for="opt4" class="inputmargin">SQL Server </label>
+                <input type="checkbox" id="opt4" name="opt4" value="SQL"><br><br>
+
+                Post applying for
+                <input type="radio" id="Trainee" name="select" value="Trainee" class="inputmargin">
+                <label for="Trainee">Trainee</label>
+                <input type="radio" id="Software" name="select" value="Software" class="inputmargin">
+                <label for="Software">Software Eng.</label><br>
+                <input type="radio" id="Team" name="select" value="Team">
+                <label for="Team">Team leader</label>
+                <input type="radio" id="Project" name="select" value="Project" class="inputmargin">
+                <label for="Project">Project manager</label><br><br>
+
+                <label for="myfile">Upload Resume:</label>
+                <input type="file" id="myFile" name="filename" class="inputmargin"><br><br>
+
+                <label for="resume" id="paste">Paste your Resume</label>
+                <textarea id="resume" name="resume" rows="7" cols="40" class="inputmargin"></textarea><br><br>
+
+                <input type="checkbox" id="opt" name="opt" value="notify">
+                <label for="opt">Notify me the status via Email </label><br>
+
+                <input type="radio" id="t&c" name="select" value="t&c">
+                <label for="t&c">I agree to terms and conditions</label><br><br>
+
+                <input type="submit"/ id="buttons">
+                <input type="reset"><br>
+
+            </fieldset>
+
+        </form> 
+
+    </body>
+</html>

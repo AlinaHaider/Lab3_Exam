@@ -1,0 +1,65 @@
+.buttons{
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 5px 16px;
+}
+
+#p{
+    color: blue;
+}
+
+.header{
+    float: right;
+    margin-top: auto;
+}
+
+.signin{
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px 23px;
+    border-radius: 5px;
+    
+}
+.signin:hover{
+    background: #1a8be8;
+}
+
+.headerlinks{
+    color: rgba(0,0,0,0.87);
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.headerlinks:hover{
+    text-decoration: underline;
+}
+
+.dots{
+    background: transparent;
+    color: #5f6368;
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dots:hover{
+    box-shadow: 0 5px 15px #5f6368;
+    border-radius: 50px;
+}
+
+.section{
+    text-align: center;
+}

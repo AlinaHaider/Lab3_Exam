@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+
+        <h1>Travel Reservation Form</h1>
+        <h2>* Denotes mandatory</h2>
+
+        <form action="/action_page.php">
+
+        <label for="fname">Full name*:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Alina Baig" required><br>
+
+        <label for="email">Email address*:</label><br>
+        <input type="text"name="email" placeholder="Enter Email" required><br>
+
+        <label for="Pakage">Select your pakage*:</label><br>
+            <select id="Pakage" name="Pakage" required>
+                <option value=""></option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select><br>
+
+            <label for="adate">Arrival Date*:</label><br>
+            <input type="date" id="adate" name="adate" placeholder="m/d/y" required><br>
+
+            <label for="persons">Number of persons*:</label><br>
+            <input type="text" id="persons" name="persons" placeholder="UNKNOWN_TYPE" required><br>
+
+            <p>What would you want to avail*:</p>
+            <label for="opt1">Boarding </label>
+            <input type="checkbox" id="opt1" name="opt1" value="Boarding" required><br>
+            <label for="opt2">Fooding </label>
+            <input type="checkbox" id="opt2" name="opt2" value="Fooding" required><br>
+            <label for="opt3">Sight seeing </label>
+            <input type="checkbox" id="opt3" name="opt3" value="Sight seeing" required><br>
+            
+            <label for="coupon">Discount coupon code:</label><br>
+            <input type="text" id="coupon" name="coupon" placeholder="UNKNOWN_TYPE"><br>
+
+            <p>Terms and Conditions*:</p>
+            <input type="radio" id="agree" name="select" value="agree" required>
+            <label for="agree">I agree</label>
+            <input type="radio" id="disagree" name="select" value="disagree">
+            <label for="disagree">I disagree</label><br><br>
+
+            <input type="submit" value="Complete Reservation">
+
+        </form> 
+
+    </body>
+</html>
+
